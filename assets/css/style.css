@@ -1,0 +1,532 @@
+@font-face
+{
+        font-family: TiemposHeadline;
+        src: url(../fonts/TiemposHeadline-Semibold.woff);
+}
+@font-face
+{
+        font-family: Theinhardt-Lt;
+        src: url(../fonts/Graphik-Medium.ttf);
+}
+@font-face
+{
+        font-family: Graphik-Medium;
+        src: url(../fonts/Graphik-Medium.ttf);
+}
+
+@font-face
+{
+    font-family: Graphik-Regular;
+    src: url(../fonts/Graphik-Regular.woff);
+}
+/* ------------------------------------------- */
+
+
+
+body
+{
+        margin: 0;
+        padding: 0;
+}
+
+/* ::::::......Here Start Header......:::::: */
+header
+{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        color: #000;
+        padding: 0 10px 0 0;
+}
+header h1 
+{
+        padding-right: 60px;
+        color: #27282A ;
+        font-family: TiemposHeadline;        
+}
+header ul 
+{
+        padding: 0;
+}
+header ul li
+{
+        list-style: none;
+        display: inline-block;
+        padding-right: 30px;
+}
+header ul li a
+{
+        color: #3d3e41;
+        text-decoration: none;
+        font-family: Graphik-Regular;
+}
+header button
+{
+        font-family: Graphik-Medium;
+        background-color: #fff;
+        border: 1 solid #27282A;
+        color: #27282A ;
+        padding: 10px 60px;
+        font-size: 18px;
+        border-radius: 3px;
+}
+
+
+/* ::::::......Here End Header......:::::: */
+
+
+
+/* ::::::..Here Start get-your-design-container..:::::: */
+
+
+.get-your-design-container 
+{       
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+.get-your-design-container h1
+{
+        font-family: Graphik-Regular;
+        font-size: 38px;
+}
+.get-your-design-container img
+{
+        width: 100%;
+}
+/* ::::::..Here End get-your-design-container..:::::: */
+
+
+
+/* ::::::..Here Start my-para-price..:::::: */
+.my-para-price
+{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        height: 400px;
+}
+.my-para-price p
+{       
+        margin: 0;
+        font-size: 20px;
+        font-family: Graphik-Medium;
+        width: 53%;
+        padding-top: 10%;
+}
+.my-para-price h1
+{       margin: 0;
+        font-size: 55px;
+        font-family: Graphik-Regular;
+        padding-top: 10%;
+}
+.my-para-price h1 span
+{
+        font-size: 20px;
+        color: #9FA2A7;
+        font-family: Theinhardt-Lt;
+}
+/* ::::::..Here End my-para-price..:::::: */
+
+
+
+
+/* ::::::......Here Start Deliverables......:::::: */
+.Deliverables
+{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+     align-items: center;
+     padding-top: 50px;
+}
+.Deliverables img
+{
+        width: 30%;
+        padding: 0;
+}
+.Deliverables h1
+{  
+        font-family: TiemposHeadline;
+        padding-bottom: 50px;
+        margin: 0;
+        font-size: 60px;
+}
+.Deliverables h2
+{  
+        font-family: Graphik-Medium;
+}
+.Deliverables p
+{ 
+        font-family: Theinhardt-Lt;
+        color: #9FA2A7;
+        width: 527px;
+        line-height: 25px;
+}
+/* ::::::......Here End Deliverables......:::::: */
+
+
+/* ::::::......Here Start How it Works + Who We Are ......:::::: */
+.How-it-Works-Who-We-Are
+{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 10%;
+}
+.works-container
+{
+        background: rgba(172, 168, 168, 0.2);
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+        width: 84%;
+}
+.works-container img
+{
+        width: 50%;
+        height: 50%;
+}
+.works-container div 
+{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 50px;
+}
+.works-container h1
+{       
+        font-family: TiemposHeadline;
+        font-size: 50px;
+        margin: 0;
+
+}
+.works-container div h2 
+{
+        font-size: 17px;
+        line-height: 22px;
+        width: 450px;
+        color: #848689;
+        font-family: Theinhardt-Lt;
+}
+.works-container li
+{
+        list-style-type: decimal;
+        font-size: 17px;
+        line-height: 22px;
+        width: 450px;
+        color: #848689;
+        font-family: Theinhardt-Lt;
+}
+/* ::::::......Here End How it Works + Who We Are ......:::::: */
+
+
+
+/* ::::::......Here Start Critique......:::::: */
+.Critique-text
+{       
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 70px;
+}
+.Critique-text h1
+{
+        font-size: 70px;
+        font-family: TiemposHeadline;
+}
+.Critique-text p
+{
+        font-family: Theinhardt-Lt;
+        font-size:20px;
+        color: #9FA2A7;
+        padding-bottom: 10px;
+        margin: 0;
+}
+.Critique
+{
+        margin-top: 110px;
+        position: relative;
+
+}
+.background-prozent
+{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+}
+
+.background-prozent img
+{
+        width: 39%;
+        position: absolute;
+        bottom: -150px;
+        right: 140px;
+}
+.background-prozent p
+{
+        font-size: 22px;
+        line-height: 40px;
+        font-family: Graphik-Medium;
+        color: #848689;
+        position: absolute;
+        bottom: -130px;
+        left: 310px;
+}
+/* ::::::......Here End Critique......:::::: */
+
+
+
+/* ::::::......Here Start Footer......:::::: */
+.my-footer
+{
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        background-color: #fff;
+        height: 650px;
+}
+.container-footer
+{
+        border-top: 1px solid #000;
+        width: 80%;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+}
+.container-footer img
+{
+        padding-top:40px;
+        width: 100px;
+        padding-bottom: 15px;
+}
+.container-footer div:nth-child(2)
+{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        padding-bottom: 30px;
+}
+.container-footer div:nth-child(1) h1
+{
+        font-size: 50px;
+        margin-bottom: 0;
+        margin-top: 80px;
+        font-family: TiemposHeadline;
+}
+.container-footer div:nth-child(2) h2
+{
+        font-size: 17px;
+        font-family: Graphik-Medium;
+        color: #9FA2A7;
+}
+.container-footer div:nth-child(2) a
+{
+        text-decoration: none;
+        color: #27282A ;
+}
+/* ::::::......Here End Footer......:::::: */
+  
+
+
+@media (max-width: 812px){
+
+
+
+        
+        header h1 
+        {
+                padding: 0;
+                margin: 0;
+                font-size: 20px;
+        }
+
+        header button
+        {
+                padding: 1px 10px;
+                font-size: 8px;
+        }
+        
+        header ul li
+        {
+                line-height: 30px;
+                display: block;
+                font-size: 13px;
+        }
+        header ul li a:hover
+        {
+                color: tomato;
+        }
+        header ul li a
+        {
+                color: #3d3e41;
+                text-decoration: none;
+                font-family: Graphik-Regular;
+        }
+        .get-your-design-container h1
+        {
+                font-size: 15px;
+                padding-left:  20px;
+        }
+        .my-para-price {
+                height: 200px;
+        }
+        .my-para-price p
+        {       
+                font-size: 13px;
+        }
+        .my-para-price h1
+        {      
+                font-size: 35px;
+        }
+        .my-para-price h1 span
+        {
+                font-size: 13px;   
+        }
+        .Deliverables
+        {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding-top: 5px;
+        }
+        .Deliverables article
+        {
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+        }
+        .Deliverables img
+        {
+                width: 70%;
+                padding: 0;
+                margin: 0;
+        }
+        .Deliverables h1
+        {  
+                padding-bottom: 10px;
+                margin: 0;
+                font-size: 30px;
+        }
+        .Deliverables h2
+        {  
+                font-size: 13px;
+        }
+        .Deliverables p
+        {
+                width: 300px;
+                line-height: 17px;
+                font-size: 13px;
+        }
+                .How-it-Works-Who-We-Are
+        {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding-top: 10%;
+        }
+        .works-container
+        {   
+                flex-direction: column;
+                width: 84%;
+                height: 100%;
+        }
+        .works-container div 
+        {
+                display: flex;
+                flex-direction: column;
+        }
+        .works-container h1
+        {       
+                font-size: 25px;
+        }
+        .works-container div h2 
+        {
+                font-size: 12px;
+                line-height: 17px;
+                width: 230px;  
+        }
+        .works-container li
+        {
+                font-size: 12px;
+                padding-right: 20px;
+                line-height: 17px;
+                width: 230px;
+        }
+        .Critique-text
+        {       
+             
+                text-align: center;
+          
+        }
+        .Critique-text h1
+        {
+                font-size: 35px;
+        }
+        .Critique-text p
+        {
+                font-size: 10px;
+                padding: 0 20px;
+        }
+        .Critique
+        {
+                margin-top: 10px;
+        }
+
+        .Critique img
+        {
+                width: 100%;
+                padding-top: 30px;
+
+
+        }
+        .background-prozent
+        {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+        }
+        
+        .background-prozent img
+        {
+                width: 39%;
+                position: absolute;
+                bottom: -29px;
+                right: 40px;
+        }
+        .background-prozent p
+        {
+                font-size: 8px;
+                line-height: 12px;
+                position: absolute;
+                bottom: -39px;
+                left: 70px;
+        }
+
+        .my-footer
+        {
+                height: 420px;
+        }
+      
+    
+      
+        .container-footer div:nth-child(1) h1
+        {
+                font-size: 25px;
+                margin-top: 40px;
+        }
+        .container-footer div:nth-child(2) h2
+        {
+                font-size: 10px;
+        }
+        
+        
+}
+        
